@@ -1,0 +1,168 @@
+@import 'https://fonts.googleapis.com/css?family=Signika';
+*{
+    font-family: "Tahoma",Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body > header {
+    background: url("images/Recertified-computer-equipment-1024x413.jpg")no-repeat center center;
+    height: 735px;
+    background-size: cover;
+    padding-top: 20px;
+    /*position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;*/
+
+}
+header{
+    justify-content: center;
+}
+nav{
+    justify-content: center;
+}
+
+ header #navMenu {
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 25%;
+    color: orange;
+    font-size: 2.5em;
+
+}
+
+ul#navMenu {
+    display: flex;
+    justify-content: center;
+}
+
+ul#navMenu,ul.subOne{
+    margin-top: 20px;
+    list-style-type: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#navMenu li{
+
+    font-weight: bold;
+    letter-spacing: 3px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+
+}
+#navMenu a{
+    padding: 10px 0px;
+    text-decoration: none;
+    display: block;
+    width: 300px;
+    height: 25px;
+    line-height: 25px;
+    background:linear-gradient(to top,red 0%,orange  100%) ;
+    border: 2px solid orange;
+    border-radius: 5px;
+    color: white;
+
+}
+
+#navMenu .subOne a{
+    margin: 3px;
+
+}
+
+#navMenu li:hover > a{
+
+}
+#navMenu li:hover a:hover{
+    background:none;
+
+    color: orange;
+
+}
+#navMenu .subOne{
+
+    display: none;
+    position: absolute;
+    top:30px;
+    left: -5px;
+}
+
+#navMenu li:hover .subOne{
+    display: block;
+}
+#navMenu .subOne li:hover{
+    display: block;
+}
+.darrow{
+    font-size: 26px;
+    position: absolute;
+    top: 8px;
+    
+    right: 107px;
+}
+main{
+
+    margin: 20px 30px;
+}
+aside{
+    width: 20%;
+    border:1px solid red ;
+    margin-right: 20px;
+
+    float: left;
+    height: 700px;
+}
+aside h2{
+    color: orange;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+aside ul{
+    list-style: none;
+}
+aside ul li{
+    padding-bottom: 30px;
+    text-align: center;
+}
+aside ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+aside ul li a:hover{
+    text-shadow: rgba(0,0,0,0.5) 2px 2px 4px;
+}
+article{
+    width:100%;
+    border:1px solid red ;
+    height: 700px;
+
+}
+footer{
+    background:linear-gradient(to bottom ,lightgray 0%,darkgray 100%);
+    padding: 10px 30px;
+    text-align: center;
+
+}
+footer p{
+    color: #ffffff;
+}
+footer p span{
+    padding-left: 5px;
+}
+
+
