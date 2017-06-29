@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+main {
+  /*font-size: 16px;*/
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: bold;
+  width: 90%;
+  margin: 0 auto;
+}
+.head h4, h5 {
+  text-align: center;
+}
+.head h4 {
+  text-transform: capitalize;
+  font-size: 1.9em;
+}
+.head h5 {
+  font-size: 1.5em;
+}
+.staff ul {
+  width: 90%;
+}
+.staff ul li {
+  border: 1px solid orange;
+  margin: 5px 5px;
+  width: 85%;
+  height: 300px;
+}
+.staff ul li img, button, p {
+  display: inline-block;
+  vertical-align: top;
+}
+.staff ul li img {
+  width: 40%;
+  height: 90%;
+}
+.staff ul li button {
+  width: 10%;
+  height: 15%;
+  margin: 30px 0px 0px -20px;
+  border-radius: 15px;
+  padding: 8px 15px;
+  min-width: 30px;
+  max-width: 100px;
+  background-color: grey;
+  position: relative;
+  /*background:linear-gradient(to bottom ,lightgray 0%,darkgray 100%);*/
+}
+
+.staff ul li button:hover {
+  cursor: pointer;
+  background-color: orange;
+  color: orange;
+}
+.price {
+  padding: 8px 15px;
+  /*color: #fff;*/
+  display: none;
+  position: absolute;
+  top: 40px;
+}
+.staff ul li button:hover .price {
+  top: 45px;
+  left: 0px;
+  border: 1px solid orange;
+  border-radius: 15px;
+  background-color: orange;
+  display:block;
+  color: #fff;
+}
+
+.staff ul li button a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.staff ul li p {
+  width: 48%;
+  height: 90%;
+  margin: 30px 0px 0px 20px;
+}
