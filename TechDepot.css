@@ -1,14 +1,16 @@
-@import 'https://fonts.googleapis.com/css?family=Signika';
+@import url('https://fonts.googleapis.com/css?family=Lato');
 *{
-    font-family: "Tahoma",Arial,sans-serif;
+    font-family: Lato,Arial,sans-serif;
+    font-weight: bold;
     margin: 0;
     padding: 0;
 }
 body > header {
     background: url("images/Recertified-computer-equipment-1024x413.jpg")no-repeat center center;
-    height: 735px;
+    height: 500px;
     background-size: cover;
     padding-top: 20px;
+
     /*position: absolute;
     top:0;
     bottom:0;
@@ -18,6 +20,9 @@ body > header {
 }
 header{
     justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 nav{
     justify-content: center;
@@ -30,10 +35,11 @@ nav{
 
 }
 header h1{
+    position: relative;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
-    padding-top: 25%;
+    top:180px;
     color: orange;
     font-size: 2.5em;
 
@@ -41,7 +47,7 @@ header h1{
 
 ul#navMenu {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 ul#navMenu,ul.subOne{
@@ -51,20 +57,19 @@ ul#navMenu,ul.subOne{
     text-transform: uppercase;
 }
 #navMenu li{
-
+    position: relative;
     font-weight: bold;
     letter-spacing: 3px;
-    width: 400px;
+    width: 200px;
     text-align: center;
-    position: relative;
+
 
 }
 #navMenu a{
     padding: 10px 0px;
     text-decoration: none;
     display: block;
-    width: 300px;
-    height: 25px;
+
     line-height: 25px;
     background:linear-gradient(to top,red 0%,orange  100%) ;
     border: 2px solid orange;
@@ -74,7 +79,9 @@ ul#navMenu,ul.subOne{
 }
 
 #navMenu .subOne a{
-    margin: 3px;
+    margin-top: 3px;
+    width: 195px;
+
 
 }
 
@@ -92,7 +99,7 @@ ul#navMenu,ul.subOne{
     display: none;
     position: absolute;
     top:30px;
-    left: -5px;
+    left: -1px;
 }
 
 #navMenu li:hover .subOne{
@@ -102,27 +109,28 @@ ul#navMenu,ul.subOne{
     display: block;
 }
 .darrow{
-    font-size: 26px;
+    font-size: 170%;
     position: absolute;
     top: 8px;
-    
-    right: 107px;
+    right: 3px;
 }
 main{
+    width: 1200px;
+    margin: 0 auto;
 
-    margin: 20px 30px;
+    margin-bottom: 10px;
 }
 aside{
-    width: 20%;
-    border:1px solid red ;
-    margin-right: 20px;
+    width: 250px;
 
     float: left;
     height: 700px;
+    margin-right: 50px;
+    background: url("images/server.jpg")repeat;
 }
 aside h2{
     color: orange;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin-bottom: 30px;
     text-align: center;
 
@@ -138,25 +146,42 @@ aside ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
-    color: orange;
+    color: #ffffff;
     letter-spacing: 1px;
     text-align: center;
 
 }
 aside ul li a:hover{
-    text-shadow: rgba(0,0,0,0.5) 2px 2px 4px;
+    text-decoration:underline;
 }
 article{
-    width:100%;
-    border:1px solid red ;
+
+
     height: 700px;
 
+
+}
+article video {
+    width: 900px;
+    margin: 0 auto;
+
+    margin-bottom: 20px;
+
+}
+article h2{
+    text-transform: uppercase;
+    color: orange;
+    font-size: 50px;
+    text-align: center;
+
+    text-shadow: rgba(0,0,0,0.5) 2px 2px 4px;;
 }
 footer{
     background:linear-gradient(to bottom ,lightgray 0%,darkgray 100%);
     padding: 10px 30px;
     text-align: center;
-
+    width: 1150px;
+    margin: 0 auto;
 }
 footer p{
     color: #ffffff;
