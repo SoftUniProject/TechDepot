@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+  <main>
+         <fieldset>
+             <legend id="personal">Personal Information</legend>
+             <form action="#" method="post">
+              <div id="formRow">
+                 <div>
+                     <p><label for="country">Country:</label></p>
+                     <input type="text" maxlength="15" name="country" placeholder="Your country" id="country">
+                 </div>
+                 <div>
+                     <p><label for="city">City:</label></p>
+                         <input type="text" maxlength="15" name="city" placeholder="Your city" id="city">
+                 </div>
+                 <div>
+                     <p><label for="firstName">First Name:</label></p>
+                        <input type="text" maxlength="15" name="firstName" placeholder="Your first name" id="firstName">
+                 </div>
+                 <div>
+                     <p><label for="lastName">Last Name:</label></p>
+                     <input type="text" maxlength="15" name="lastName" placeholder="Your last name" id="lastName">
+                 </div>
+                 <div>
+                     <p><label for="password">Password:</label></p>
+                     <input type="password" maxlength="15" name="password" placeholder="password" id="password">
+                 </div>
+              </div>
+              <div id="hobbies">
+                  <div>
+                     <p>What is yours hobbies:
+                            <select name="hobbies">
+                                <optgroup label="Sport">
+                                    <option value="swimming" disabled>Swimming</option>
+                                    <option value="basketball">Basketball</option>
+                                    <option value="football" selected>Football</option>
+                                    <option value="karate">Karate</option>
+                                    <option value="tennis">Tennis</option>
+                                </optgroup>
+                                    <optgroup label="Anothers">
+                                    <option value="playComputerGames">Play Computer Games</option>
+                                    <option value="shopping">Shopping</option>
+                                </optgroup>
+                            </select>
+                     </p>
+                  </div>
+                  <div>
+                     <p>Sex:
+                         <label for="male">Male</label><input type="radio" id="male" name="gender" value="male">
+                         <label for="female">Female</label><input type="radio" id="female" name="gender" value="female">
+                     </p>
+                  </div>
+             </div>
+             <div id="buttons">
+                 <p><input type="submit" value="Submit"></p>
+                 <p><input type="file"></p>
+                 <p><input type="reset" value="reset"></p>
+             </div>
+             </form>
+
+         </fieldset>
+     </main>
+</body>
+</html>
