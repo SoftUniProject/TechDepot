@@ -97,6 +97,8 @@ main {
     padding-left: 0px;
     padding-top: 0px;
     background: url("images/server.jpg")repeat;
+    /*position: fixed;
+    right: 35px;*/
 }
 aside h2{
     color: orange;
