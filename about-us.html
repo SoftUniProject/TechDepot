@@ -8,7 +8,7 @@
   <body>
     <header>
       <h1>We Know Computers!</h1>
-      <img src="programmer.jpg" alt="">
+      <img src="images/programmer.jpg"/>
     </header>
     <main>
       <section>
@@ -29,34 +29,35 @@ We've dedicated ourselves to making sure that everyone enjoys our service. We ta
 </p>
      </section>
 
-<h2>Contact us!</h2>
-<p>...and we will respond as soon as possible</p>
-      <aside class="Contact form">
-        <form id="contact_form" action="#">
-	<div class="row">
-		<label for="name">Your name:</label><br />
-		<input id="name" class="input" name="name" type="text" value="" /><br />
-	</div>
-	<div class="row">
-		<label for="email">Your email:</label><br />
-		<input id="email" class="input" name="email" type="text" value="" /><br />
-	</div>
-	<div class="row">
-    <label for="message">Your message:</label><br />
-    		<textarea id="message" class="input" name="message" rows="7"></textarea><br />
-    	</div>
+<div id="contacts-wrapper">
+      <div id="contact-form">
+        <h2 id="contact-us">Contact us!</h2>
+        <p>...and we will respond as soon as possible</p>
+          <form id="contact_form" action="#">
+	          <div class="row">
+		          <label for="name">Your name:</label><br />
+		            <input id="name" class="input" name="name" type="text" value="" /><br />
+	          </div>
+	            <div class="row">
+	             	<label for="email">Your email:</label><br />
+		              <input id="email" class="input" name="email" type="text" value="" /><br />
+	           </div>
+	             <div class="row">
+                 <label for="message">Your message:</label><br />
+    		           <textarea id="message" class="input" name="message" rows="7"></textarea><br />
+    	         </div>
             <button type="button" name="button">Submit</button>
-    </form>
-  </aside>
+        </form>
+       </div>
 
-    <aside class="Contacts">
+       <div id="contacts">
         <h2>Our Contacts</h2>
-        <address>
-          15-17, Tintyava Str, 2nd floor, Sofia, Bulgaria, 1113
-        </address></p>
-        <p>Tel.: +359 881 234 567</p>
-        <p>E-mail: info@softuni.bg</p>
-      </aside>
+              <address>15-17, Tintyava Str, 2nd floor, Sofia, Bulgaria, 1113
+              </address>
+                <p>Tel.: +359 881 234 567</p>
+                  <p>E-mail: info@softuni.bg</p>
+      </div>
+    </div>
     </main>
      <footer>&copy; Copyright 2017</footer>
   </body>

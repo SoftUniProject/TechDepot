@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+h1 {
+color: #ffa500;
+font-size: 40px;
+margin: 50px 50px;
+text-align: center;
+}
+
+header > img {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+header{
+  min-width: 100%;
+}
+
+body > header {
+  height: 500px;
+  background-size: contain;
+  padding-top: 20px;
+}
+
+h2   {
+  color: #ffa500;
+  font-size: 30px;
+  margin: 60px;
+  text-align: center;
+
+  }
+
+section > p {
+  margin: 0 30px 0 30px;
+  border: 25px;
+  border-color: #ffa500;
+  text-align: center;
+  margin: 0 100px;
+
+}
+#contacts-wrapper{
+text-align: center;
+margin-bottom: 50px;
+}
+#contact-form {
+  vertical-align: top;
+  display: inline-block;
+  margin: 0 50px;
+}
+
+#contact-us {
+  text-align: left;
+}
+
+#contact-us > p {
+  margin: 0;
+  padding: 0;
+}
+
+#contacts {
+  vertical-align: top;
+  display: inline-block;
+  margin: 0 50px;
+}
+footer{
+  text-align: center;
+  background-color: #ccc;
+}
