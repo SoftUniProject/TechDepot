@@ -11,12 +11,19 @@ body {
   margin: 0 auto;
   width: 1200px;
   border: 1px solid red;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  /*position: absolute;*/
 }
 
 h1 {
 color: #ffa500;
 font-size: 40px;
-margin: 50px 50px;
+margin: 50px auto;
 text-align: center;
 }
 
@@ -24,11 +31,12 @@ header > img {
   border-radius: 10px;
   display: block;
   margin: 0 auto;
+  width: 600px;
+  max-width: 50%;
+  position: relative;
 }
 
-header{
-  min-width: 100%;
-}
+
 
 body > header {
   height: 500px;
@@ -82,7 +90,7 @@ footer{
   background-color: #ccc;
 }
 
-input#name, input#email, textarea#message {
+input[type=text], #message {
   margin: 20px;
   border: 2px solid #ffa500;
   border-radius: 10px;
@@ -90,15 +98,25 @@ input#name, input#email, textarea#message {
   outline: none;
 }
 
-input#name:active, input#email:active, textarea#message:active {
-  box-shadow: 0 0 30px - 5px darkred;
-}
 
 button {
   margin: 10px;
   border: 2px solid #ffa500;
   border-radius: 10px;
   padding: 10px;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ffa500;
+  color: white;
+}
+
+input[type=text]:active, #message:active {
+  box-shadow: 0 0 30px 5px darkred;
 }
 
 #contacts > address, p {
@@ -109,4 +127,13 @@ button {
 span {
   text-decoration: underline;
   color: #ffa500;
+}
+
+div.logo{
+  position: absolute;
+}
+
+div.logo > a > img {
+  width: 250px;
+  float: left;
 }
