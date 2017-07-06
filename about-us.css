@@ -9,6 +9,8 @@ body {
   font-family: "Lato", Arial, sans-serif;
   font-weight: bold;
   margin: 0 auto;
+  width: 1200px;
+  border: 1px solid red;
 }
 
 h1 {
@@ -45,7 +47,7 @@ h2   {
 section > p {
   margin: 0 30px 0 30px;
   border: 25px;
-  border-color: #ffa500;
+  border: 1px solid #ffa500;
   text-align: center;
   margin: 0 100px;
 
@@ -54,6 +56,7 @@ section > p {
 text-align: center;
 margin-bottom: 50px;
 }
+
 #contact-form {
   vertical-align: top;
   display: inline-block;
@@ -77,4 +80,33 @@ margin-bottom: 50px;
 footer{
   text-align: center;
   background-color: #ccc;
+}
+
+input#name, input#email, textarea#message {
+  margin: 20px;
+  border: 2px solid #ffa500;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+}
+
+input#name:active, input#email:active, textarea#message:active {
+  box-shadow: 0 0 30px - 5px darkred;
+}
+
+button {
+  margin: 10px;
+  border: 2px solid #ffa500;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#contacts > address, p {
+  margin: 10px;
+  padding: 10px;
+}
+
+span {
+  text-decoration: underline;
+  color: #ffa500;
 }
