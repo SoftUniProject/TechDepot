@@ -54,7 +54,7 @@ main {
 
 .staff ul li button:hover {
   cursor: pointer;
-  background-color: orange;
+  background:linear-gradient(to top,red 0%,orange  100%) ;
   color: orange;
 }
 .price {
@@ -69,7 +69,7 @@ main {
   left: 0px;
   border: 1px solid orange;
   border-radius: 15px;
-  background-color: orange;
+  background:linear-gradient(to top,red 0%,orange  100%) ;
   display:block;
   color: #fff;
 }
@@ -126,3 +126,13 @@ aside ul li a {
 aside ul li a:hover{
     text-decoration:underline;
 }
+
+.professional > a img{
+  margin-top: 10px;
+  width: 250px;
+
+}
+ a img:hover{
+  box-shadow: 0 0 30px -5px darkred;
+}
+

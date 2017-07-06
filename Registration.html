@@ -4,34 +4,45 @@
     <meta charset="UTF-8">
     <title>Registration</title>
     <link rel="stylesheet" href="Registration.css">
+    <link rel="shortcut icon" href="images/tdLogo.ico">
 </head>
 <body>
   <main>
+      <a href="TechDepot.html"><img src="images/tdLogo.png"></a>
+
          <fieldset>
              <legend id="personal">Personal Information</legend>
              <form action="#" method="post">
               <div id="formRow">
                  <div>
-                     <p><label for="country">Country:</label></p>
-                     <input type="text" maxlength="15" name="country" placeholder="Your country" id="country">
+                     <p><label for="country"><i class="fa fa-globe" aria-hidden="true"></i>Country:</label></p>
+                    <input type="text" maxlength="15" name="country" placeholder="Your country" id="country" required>
+
                  </div>
                  <div>
-                     <p><label for="city">City:</label></p>
-                         <input type="text" maxlength="15" name="city" placeholder="Your city" id="city">
+                     <p><label for="city"><i class="fa fa-map-marker" aria-hidden="true"></i>City:</label></p>
+                         <input type="text" maxlength="15" name="city" placeholder="Your city" id="city" required>
                  </div>
                  <div>
-                     <p><label for="firstName">First Name:</label></p>
-                        <input type="text" maxlength="15" name="firstName" placeholder="Your first name" id="firstName">
+                     <p><label for="firstName"><i class="fa fa-user" aria-hidden="true"></i>First Name:</label></p>
+                        <input type="text" maxlength="15" name="firstName" placeholder="Your first name" id="firstName" required>
                  </div>
                  <div>
-                     <p><label for="lastName">Last Name:</label></p>
-                     <input type="text" maxlength="15" name="lastName" placeholder="Your last name" id="lastName">
+                     <p><label for="lastName"><i class="fa fa-user" aria-hidden="true"></i>Last Name:</label></p>
+                     <input type="text" maxlength="15" name="lastName" placeholder="Your last name" id="lastName" required>
                  </div>
                  <div>
-                     <p><label for="password">Password:</label></p>
-                     <input type="password" maxlength="15" name="password" placeholder="password" id="password">
+                     <p><label for="password"><i class="fa fa-key" aria-hidden="true"></i>Password:</label></p>
+                     <input type="password" maxlength="15" name="password" placeholder="password" id="password" required>
                  </div>
               </div>
+                 <article>
+                 <div id="gender">
+                     <p>Sex:
+                         <label for="male">Male</label><input type="radio" id="male" name="gender" value="male">
+                         <label for="female">Female</label><input type="radio" id="female" name="gender" value="female" required>
+                     </p>
+                 </div>
               <div id="hobbies">
                   <div>
                      <p>What is yours hobbies:
@@ -50,12 +61,7 @@
                             </select>
                      </p>
                   </div>
-                  <div>
-                     <p>Sex:
-                         <label for="male">Male</label><input type="radio" id="male" name="gender" value="male">
-                         <label for="female">Female</label><input type="radio" id="female" name="gender" value="female">
-                     </p>
-                  </div>
+                 </article>
              </div>
              <div id="buttons">
                  <p><input type="submit" value="Submit"></p>

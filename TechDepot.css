@@ -5,11 +5,18 @@
     margin: 0;
     padding: 0;
 }
+html{
+    margin-top: 0;
+}
+body{
+
+    position: relative;
+}
 body > header {
     background: url("images/Recertified-computer-equipment-1024x413.jpg")no-repeat center center;
     height: 500px;
     background-size: cover;
-    padding-top: 20px;
+
 
     /*position: absolute;
     top:0;
@@ -44,10 +51,13 @@ header h1{
     font-size: 2.5em;
 
 }
-
+main fieldset legend{
+    background:linear-gradient(to top,red 0%,orange  100%) ;
+}
 ul#navMenu {
     display: flex;
     justify-content: space-between;
+    margin-left: 300px;
 }
 
 ul#navMenu,ul.subOne{
@@ -62,7 +72,7 @@ ul#navMenu,ul.subOne{
     letter-spacing: 3px;
     width: 200px;
     text-align: center;
-
+    outline: none;
 
 }
 #navMenu a{
@@ -84,13 +94,25 @@ ul#navMenu,ul.subOne{
 
 
 }
+nav > a img{
+      position: absolute;
+      top:0;
+      left:70px;
+      width: 250px;
 
+}
+nav > a img:hover{
+   box-shadow: 0 0 30px -5px darkred;
+}
+#navMenu li:active{
+    border-radius: 10px;
+    box-shadow: 0 0 30px -5px darkred;
+}
 #navMenu li:hover > a{
 
 }
-#navMenu li:hover a:hover{
+#navMenu li:hover a:hover {
     background:none;
-
     color: orange;
 
 }
@@ -99,7 +121,7 @@ ul#navMenu,ul.subOne{
     display: none;
     position: absolute;
     top:30px;
-    left: -1px;
+    left: 0;
 }
 
 #navMenu li:hover .subOne{
@@ -108,12 +130,23 @@ ul#navMenu,ul.subOne{
 #navMenu .subOne li:hover{
     display: block;
 }
+#navMenu .subOne li:hover .darrow{
+    color: #ffffff;
+}
 .darrow{
     font-size: 170%;
     position: absolute;
     top: 8px;
     right: 3px;
+    color: #ffffff;
 }
+.darrow:hover{
+    cursor: pointer;
+}
+#navMenu li:hover .darrow{
+    color: orange;
+}
+
 main{
     width: 1200px;
     margin: 0 auto;

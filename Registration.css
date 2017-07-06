@@ -1,33 +1,102 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 *{
     font-family: Lato,Arial,sans-serif;
 }
 main{
-    margin: 50px 50px auto;
+    margin: 10px 50px auto;
     color: gray;
 }
 main fieldset legend#personal{
-    font-size: 50px;
+    font-size: 45px;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    color: orange;
+    color: #ffffff;
     letter-spacing: 3px;
+    background:linear-gradient(to top,red 0%,orange  100%) ;
+    border-radius: 10px;
+    padding: 0 10px;
 }
 main form div#formRow{
     display: flex;
     justify-content: space-between;
 
 }
-main form div#hobbies{
+main form article{
     display: flex;
     justify-content: space-between;
-    margin: 0 320px;
+    margin: 0 240px;
 }
+
 main form div#formRow div input{
-    background-color:  orange;
-    padding: 5px;
+
+    padding: 10px 0px 10px 30px;
     border-radius: 10px;
-    border: none;
+    border: 2px solid orange;
     outline: none;
+    width: 180px;
+    color: gray;
+}
+
+main form div#formRow div input:active{
+    box-shadow: 0 0 30px -5px darkred;
+}
+div#formRow div{
+    position: relative;
+}
+div#formRow div  i{
+    position: absolute;
+    left: 10px;
+    top:63px;
+    padding-right: 10px;
+}
+
+div#buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+form div#hobbies select {
+    border: 2px solid orange;
+    padding: 5px;
+    border-radius: 10px ;
+    outline: none;
+    background:linear-gradient(to top,red 0%,orange  100%) ;
+    color: black;
+}
+
+div#buttons p input{
+    border: 2px solid orange;
+    padding: 10px 40px;
+    border-radius:10px ;
+    outline: none;
+
+    background:linear-gradient(to top,red 0%,orange  100%) ;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+div#buttons p input:hover{
+
+    color: gray;
+    background: none;
+    cursor: pointer;
+}
+div#buttons p input:active{
+    box-shadow: 0 0 30px -5px darkred;
+}
+main > a img{
+
+    width: 250px;
+
+}
+a img:hover {
+    box-shadow: 0 0 30px -5px darkred;
+
+}
+main > a{
+    display: block;
+   text-align: center;
+    margin-bottom: 10px;
 }
