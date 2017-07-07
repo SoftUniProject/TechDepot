@@ -97,7 +97,7 @@ ul#navMenu,ul.subOne{
 nav > a img{
       position: absolute;
       top:0;
-      left:70px;
+      left:40px;
       width: 250px;
 
 }
@@ -151,15 +151,16 @@ main{
     width: 1200px;
     margin: 0 auto;
 
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 aside{
     width: 250px;
 
     float: left;
-    height: 700px;
+    height: 507px;
     margin-right: 50px;
-    background: url("images/server.jpg")repeat;
+    background: url("images/server.jpg")repeat-y;
+    background-size: contain;
 }
 aside h2{
     color: orange;
@@ -172,7 +173,7 @@ aside ul{
     list-style: none;
 }
 aside ul li{
-    padding-bottom: 30px;
+    padding-bottom: 28px;
     text-align: center;
 }
 aside ul li a {
@@ -187,13 +188,7 @@ aside ul li a {
 aside ul li a:hover{
     text-decoration:underline;
 }
-article{
 
-
-    height: 700px;
-
-
-}
 article video {
     width: 900px;
     margin: 0 auto;
@@ -207,20 +202,113 @@ article h2{
     font-size: 50px;
     text-align: center;
 
-    text-shadow: rgba(0,0,0,0.5) 2px 2px 4px;;
+    text-shadow: rgba(0,0,0,0.5) 2px 2px 4px;
+
 }
 footer{
     background:linear-gradient(to bottom ,lightgray 0%,darkgray 100%);
-    padding: 10px 30px;
+    padding: 10px 0;
     text-align: center;
-    width: 1150px;
+    width: 1200px;
     margin: 0 auto;
+    margin-top: 10px;
+
 }
 footer p{
     color: #ffffff;
 }
 footer p span{
     padding-left: 5px;
+}
+@media all and (max-width: 1200px) {
+    nav > a img {
+        position: static;
+       display: block;
+        width: 200px;
+        margin: 0 auto;
+    }
+    body,header,main,article{
+        width:100%;
+    }
+    footer{
+        width: 100%;
+    }
+    aside{
+        width: 25%;
+    }
+    main{
+        display: flex;
+        margin: 0;
+    }
+    article video{
+       width: 100%;
+    }
+    ul#navMenu{
+        margin-left: 0;
+         justify-content: space-around;
+
+    }
+    header h1{
+        position: relative;
+        top:100px;
+    }
+    article h2{
+        font-size: 40px;
+    }
+}
+@media all and (max-width: 780px){
+    nav > a img{
+        width: 180px;
+    }
+    main{
+        display: block;
+    }
+    aside{
+        width: 100%;
+
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    aside h2{
+        font-size: 40px;
+        letter-spacing: 3px;
+        margin-bottom: 15px;
+    }
+    aside ul li a{
+        font-size: 24px;
+        letter-spacing: 5px;
+    }
+}
+@media all and (max-width: 620px){
+    nav > a img{
+        width: 150px;
+    }
+    ul#navMenu{
+        margin-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #navMenu li{
+        width: 100%;
+        padding-bottom:3px ;
+
+    }
+    header h1{
+        font-size: 28px;
+        color: #ffffff;
+        top:125px;
+        text-shadow: rgba(0,0,0,0.7) 2px 2px 4px;
+    }
+    #navMenu li:nth-of-type(2){
+        order: 3;
+    }
+    #navMenu .subOne a{
+        width: auto;
+    }
+    #navMenu .subOne{
+        width: 100%;
+    }
 }
 
 
