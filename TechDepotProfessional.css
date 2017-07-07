@@ -13,15 +13,48 @@ main {
 }
 .head h4, h5 {
   text-align: center;
-
+  color: orange;
 }
 .head h4 {
   text-transform: capitalize;
-  font-size: 1.9em;
+  font-size: 4.5em;
 }
 .head h5 {
-  font-size: 1.5em;
+  font-size: 3.9em;
 }
+@media all and  (max-width: 1800px) {
+  .head h4 {
+    font-size: 3.1em;
+  }
+  .head h5 {
+    font-size: 2.3em;
+  }
+}
+@media all and  (max-width: 1400px) {
+  .head h4 {
+    font-size: 2.5em;
+  }
+  .head h5 {
+    font-size: 1.5em;
+  }
+}
+@media all and  (max-width: 1000px) {
+  .head h4 {
+    font-size: 2.0em;
+  }
+  .head h5 {
+    font-size: 1.2em;
+  }
+}
+@media all and  (max-width: 800px) {
+  .head h4 {
+    font-size: 2.1em;
+  }
+  .head h5 {
+    font-size: 1.0em;
+  }
+}
+
 .staff ul {
   width: 90%;
 }
@@ -49,7 +82,6 @@ main {
   max-width: 100px;
   background-color: grey;
   position: relative;
-  /*background:linear-gradient(to bottom ,lightgray 0%,darkgray 100%);*/
 }
 
 .staff ul li button:hover {
@@ -59,11 +91,11 @@ main {
 }
 .price {
   padding: 8px 15px;
-  /*color: #fff;*/
   display: none;
   position: absolute;
   top: 40px;
 }
+
 .staff ul li button:hover .price {
   top: 45px;
   left: 0px;
@@ -80,16 +112,26 @@ main {
   font-weight: bold;
   font-size: 1.5em;
 }
+
+@media all and  (max-width: 1000px) {
+  .staff ul li button a {
+    font-size: 1.0em;
+  }
+}
+/*@media all and  (max-width: 1000px) {
+  .staff ul li button a {
+    font-size: 1.2em;
+  }
+}*/
+
 .staff ul li p {
   width: 48%;
   height: 90%;
   margin: 30px 0px 0px 20px;
 }
-
-
-
 .side-bar {
     width: 20%;
+    max-width: 270px;
     float: right;
     height: 1000px;
     margin-left: 0px;
@@ -97,9 +139,32 @@ main {
     padding-left: 0px;
     padding-top: 0px;
     background: url("images/server.jpg")repeat;
-    /*position: fixed;
-    right: 35px;*/
+    position: fixed;
+    right: 35px;
 }
+
+@media all and  (min-width: 1300px) {
+  .side-bar {
+    right: 55px;
+  }
+}
+@media all and  (min-width: 1600px) {
+  .side-bar {
+    right: 95px;
+  }
+}
+@media all and  (min-width: 1900px) {
+  .side-bar {
+    right: 160px;
+  }
+}
+@media all and  (min-width: 2200px) {
+  .side-bar {
+    right: 210px;
+  }
+}
+
+
 aside h2{
     color: orange;
     text-transform: uppercase;
@@ -135,4 +200,3 @@ aside ul li a:hover{
  a img:hover{
   box-shadow: 0 0 30px -5px darkred;
 }
-

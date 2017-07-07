@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="940bd5b6-4ee7-40a5-a691-0cbd7c35b6e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Registration.css" afterPath="$PROJECT_DIR$/Registration.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Registration.html" afterPath="$PROJECT_DIR$/Registration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechDepot.css" afterPath="$PROJECT_DIR$/TechDepot.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechDepot.html" afterPath="$PROJECT_DIR$/TechDepot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechDepotProfessional.css" afterPath="$PROJECT_DIR$/TechDepotProfessional.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechDepotProfessional.html" afterPath="$PROJECT_DIR$/TechDepotProfessional.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-us.css" afterPath="$PROJECT_DIR$/about-us.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-us.html" afterPath="$PROJECT_DIR$/about-us.html" />
     </list>
     <ignored path="TechDepot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Registration.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Registration.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Registration.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="438">
               <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TechDepot.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TechDepot.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1232">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,10 +83,10 @@
         <option value="$PROJECT_DIR$/about-us.html" />
         <option value="$PROJECT_DIR$/TechDepotProfessional.html" />
         <option value="$PROJECT_DIR$/TechDepotProfessional.css" />
-        <option value="$PROJECT_DIR$/TechDepot.html" />
         <option value="$PROJECT_DIR$/TechDepot.css" />
         <option value="$PROJECT_DIR$/Registration.html" />
         <option value="$PROJECT_DIR$/Registration.css" />
+        <option value="$PROJECT_DIR$/TechDepot.html" />
       </list>
     </option>
   </component>
@@ -87,10 +98,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="17" />
-    <option name="y" value="4" />
-    <option name="width" value="802" />
-    <option name="height" value="1040" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1698" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -657,15 +668,15 @@
       <workItem from="1499347673418" duration="6589000" />
       <workItem from="1499372013269" duration="493000" />
       <workItem from="1499408536535" duration="12881000" />
-      <workItem from="1499434409102" duration="6885000" />
+      <workItem from="1499434409102" duration="7284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74709000" />
+    <option name="totallyTimeSpent" value="75108000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="4" width="802" height="1040" extended-state="0" />
+    <frame x="-9" y="-9" width="1698" height="1020" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -679,7 +690,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34986225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1565968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1053,14 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TechDepot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="54" column="62" selection-start-line="54" selection-start-column="62" selection-end-line="54" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Registration.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-66">
@@ -1073,6 +1076,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechDepot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>

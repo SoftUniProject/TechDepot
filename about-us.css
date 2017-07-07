@@ -9,12 +9,21 @@ body {
   font-family: "Lato", Arial, sans-serif;
   font-weight: bold;
   margin: 0 auto;
+  width: 1200px;
+  border: 1px solid red;
+  position: relative;
+  }
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  /*position: absolute;*/
 }
 
 h1 {
 color: #ffa500;
 font-size: 40px;
-margin: 50px 50px;
+margin: 50px auto;
 text-align: center;
 }
 
@@ -22,11 +31,12 @@ header > img {
   border-radius: 10px;
   display: block;
   margin: 0 auto;
+  width: 600px;
+  max-width: 50%;
+  position: relative;
 }
 
-header{
-  min-width: 100%;
-}
+
 
 body > header {
   height: 500px;
@@ -45,7 +55,7 @@ h2   {
 section > p {
   margin: 0 30px 0 30px;
   border: 25px;
-  border-color: #ffa500;
+  border: 1px solid #ffa500;
   text-align: center;
   margin: 0 100px;
 
@@ -54,6 +64,7 @@ section > p {
 text-align: center;
 margin-bottom: 50px;
 }
+
 #contact-form {
   vertical-align: top;
   display: inline-block;
@@ -77,4 +88,56 @@ margin-bottom: 50px;
 footer{
   text-align: center;
   background-color: #ccc;
+}
+
+input[type=text], #message {
+  margin: 20px;
+  border: 2px solid #ffa500;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+}
+
+
+button {
+  margin: 10px;
+  border: 2px solid #ffa500;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ffa500;
+  color: white;
+}
+
+input[type=text]:active, #message:active {
+  box-shadow: 0 0 30px 5px darkred;
+}
+
+#contacts > address, p {
+  margin: 10px;
+  padding: 10px;
+}
+
+span {
+  text-decoration: underline;
+  color: #ffa500;
+}
+
+div.logo{
+  position: absolute;
+}
+
+div.logo > a > img {
+  width: 250px;
+  float: left;
+}
+
+div.logo > a > img:hover {
+   box-shadow: 0 0 30px -5px darkred;
 }
