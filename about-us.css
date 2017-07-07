@@ -12,7 +12,7 @@ body {
   width: 1200px;
   border: 1px solid red;
   position: relative;
-}
+  }
 
 header {
   width: 100%;
@@ -136,4 +136,8 @@ div.logo{
 div.logo > a > img {
   width: 250px;
   float: left;
+}
+
+div.logo > a > img:hover {
+   box-shadow: 0 0 30px -5px darkred;
 }
