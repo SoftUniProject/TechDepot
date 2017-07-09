@@ -39,7 +39,6 @@ header > img {
 
 
 body > header {
-  height: 500px;
   background-size: contain;
   padding-top: 20px;
 }
@@ -63,6 +62,7 @@ section > p {
 #contacts-wrapper{
 text-align: center;
 margin-bottom: 50px;
+
 }
 
 #contact-form {
@@ -129,7 +129,7 @@ span {
   color: #ffa500;
 }
 
-div.logo{
+.logo{
   position: absolute;
 }
 
