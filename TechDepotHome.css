@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+main {
+  /*font-size: 16px;*/
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: bold;
+  width: 90%;
+  margin: 0 auto;
+}
+.head {
+  margin: 0 auto;
+  margin-left: 50px;
+}
+.head h4, h5 {
+  text-align: center;
+  color: orange;
+}
+.head h4 {
+  text-transform: capitalize;
+  font-size: 4.5em;
+}
+.head h5 {
+  font-size: 3.9em;
+}
+@media all and  (max-width: 1800px) {
+  .head h4 {
+    font-size: 3.1em;
+  }
+  .head h5 {
+    font-size: 2.3em;
+  }
+}
+@media all and  (max-width: 1400px) {
+  .head h4 {
+    font-size: 2.5em;
+  }
+  .head h5 {
+    font-size: 1.5em;
+  }
+}
+@media all and  (max-width: 1000px) {
+  .head h4 {
+    font-size: 2.0em;
+  }
+  .head h5 {
+    font-size: 1.2em;
+  }
+}
+@media all and  (max-width: 800px) {
+  .head h4 {
+    font-size: 2.1em;
+  }
+  .head h5 {
+    font-size: 1.0em;
+  }
+}
+
+.staff article {
+  width: 26%;
+}
+.staff article {
+  border: 1px solid orange;
+  margin: 5px 5px;
+  /*width: 30%;
+  height: 300px;*/
+}
+
+.staff article  {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.staff article img, button, p {
+  /*display: inline-block;*/
+  vertical-align: top;
+}
+.staff article img {
+  width: 40%;
+  height: 90%;
+}
+/*.staff ul li button {
+  width: 10%;
+  height: 15%;
+  margin: 30px 0px 0px -20px;
+  border-radius: 15px;
+  padding: 8px 15px;
+  min-width: 30px;
+  max-width: 100px;
+  background-color: grey;
+  position: relative;
+}
+
+.staff ul li button:hover {
+  cursor: pointer;
+  background:linear-gradient(to top,red 0%,orange  100%) ;
+  color: orange;
+}
+.price {
+  padding: 8px 15px;
+  display: none;
+  position: absolute;
+  top: 40px;
+}*/
+
+/*.staff ul li button:hover .price {
+  top: 45px;
+  left: 0px;
+  border: 1px solid orange;
+  border-radius: 15px;
+  background:linear-gradient(to top,red 0%,orange  100%) ;
+  display:block;
+  color: #fff;
+}*/
+
+/*.staff ul li button a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5em;
+}*/
+
+/*@media all and  (max-width: 1000px) {
+  .staff ul li button a {
+    font-size: 1.0em;
+  }
+}*/
+
+/*.staff ul li p {*/
+  /*width: 48%;
+  height: 90%;
+  margin: 30px 0px 0px 20px;*/
+/*}*/
+.side-bar {
+    width: 20%;
+    max-width: 270px;
+    float: right;
+    height: 1000px;
+    margin-left: 0px;
+    margin-top: 60px;
+    padding-left: 0px;
+    padding-top: 0px;
+    background: url("images/server.jpg")repeat;
+    position: fixed;
+    right: 35px;
+}
+
+@media all and  (min-width: 1300px) {
+  .side-bar {
+    right: 55px;
+  }
+}
+@media all and  (min-width: 1600px) {
+  .side-bar {
+    right: 95px;
+  }
+}
+@media all and  (min-width: 1900px) {
+  .side-bar {
+    right: 160px;
+  }
+}
+@media all and  (min-width: 2200px) {
+  .side-bar {
+    right: 210px;
+  }
+}
+
+
+aside h2{
+    color: orange;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+aside ul{
+    list-style: none;
+}
+aside ul li{
+    padding-bottom: 30px;
+    text-align: center;
+}
+aside ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+aside ul li a:hover{
+    text-decoration:underline;
+}
+
+.professional > a img{
+  margin-top: 10px;
+  width: 250px;
+
+}
+ a img:hover{
+  box-shadow: 0 0 30px -5px darkred;
+}
