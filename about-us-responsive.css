@@ -1,0 +1,40 @@
+@media screen and (max-width: 480px) {
+  p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .logo {
+    position: relative;
+    float: none;
+    margin: 0 auto;
+  }
+  body{
+    width: inherit;
+  }
+  div.logo > a > img {
+    float:none;
+  }
+  section > p{
+    margin: 0 auto;
+  }
+  header{
+    text-align: center;
+  }
+  #contacts-wrapper
+  {
+    display: grid;
+    text-align: center;
+  }
+  div#contact-form {
+    order: 1;
+  }
+
+  #contact-form > h2{
+    text-align: center;
+  }
+  div#contacts {
+    order: 2;
+  }
+}
