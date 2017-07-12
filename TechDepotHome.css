@@ -79,16 +79,17 @@ main {
   width: 40%;
   height: 90%;
 }
-/*.staff ul li button {
-  width: 10%;
+.staff article button {
+  width: 40%;
   height: 15%;
-  margin: 30px 0px 0px -20px;
+  margin: 15px 0px 0px 10px;
   border-radius: 15px;
   padding: 8px 15px;
   min-width: 30px;
   max-width: 100px;
   background-color: grey;
   position: relative;
+  text-decoration: none;
 }
 
 .staff ul li button:hover {
@@ -97,40 +98,42 @@ main {
   color: orange;
 }
 .price {
-  padding: 8px 15px;
+  padding: 2px 10px;
   display: none;
   position: absolute;
   top: 40px;
-}*/
+}
 
-/*.staff ul li button:hover .price {
-  top: 45px;
+.staff article button:hover .price {
+  top: 42px;
   left: 0px;
   border: 1px solid orange;
   border-radius: 15px;
   background:linear-gradient(to top,red 0%,orange  100%) ;
   display:block;
   color: #fff;
-}*/
+}
+.staff article p {
+  /*width: 48%;
+  height: 90%;*/
+  margin: 5px 5px 5px 5px;
+}
 
-/*.staff ul li button a {
+
+.staff article button a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
   font-size: 1.5em;
-}*/
+}
 
-/*@media all and  (max-width: 1000px) {
-  .staff ul li button a {
+@media all and  (max-width: 1000px) {
+  .staff article button a {
     font-size: 1.0em;
   }
-}*/
+}
 
-/*.staff ul li p {*/
-  /*width: 48%;
-  height: 90%;
-  margin: 30px 0px 0px 20px;*/
-/*}*/
+
 .side-bar {
     width: 20%;
     max-width: 270px;
