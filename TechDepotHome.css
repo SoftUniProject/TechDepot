@@ -55,20 +55,21 @@ main {
   }
 }
 
-.staff article {
-  width: 26%;
-}
+/*.staff article {
+
+}*/
 .staff article {
   border: 1px solid orange;
   margin: 5px 5px;
-  /*width: 30%;
-  height: 300px;*/
-}
-
-.staff article  {
+  width: 27%;
+  min-height: 290px;
   display: inline-block;
   vertical-align: top;
 }
+
+/*.staff article  {
+
+}*/
 
 
 .staff article img, button, p {
@@ -79,6 +80,48 @@ main {
   width: 40%;
   height: 90%;
 }
+
+@media all and  (max-width: 1800px) {
+  .staff article {
+    width: 26%;
+    min-height: 230px;
+  }
+}
+@media all and  (max-width: 1440px) {
+  .staff {
+    max-width: 1050px;
+  }
+  .staff article {
+    width: 31%;
+    min-height: 210px;
+  }
+}
+@media all and  (max-width: 1024px) {
+  .staff {
+    max-width: 800px;
+  }
+  .staff article {
+    width: 43%;
+    min-height: 215px;
+  }
+}
+/*@media all and  (max-width: 769px) {
+  .staff {
+    max-width: 300px;
+  }
+  .staff article {
+    width: 63%;
+  }
+}*/
+/*@media all and  (max-width: 625px) {
+  .staff {
+    max-width: 350px;
+  }
+  .staff article {
+    width: 90%;
+  }
+}*/
+
 .staff article button {
   width: 40%;
   height: 15%;
@@ -204,4 +247,19 @@ aside ul li a:hover{
 }
  a img:hover{
   box-shadow: 0 0 30px -5px darkred;
+}
+@media all and  (max-width: 800px) {
+  .staff {
+    max-width: 600px;
+  }
+  .staff article {
+    width: 90%;
+  }
+  .professional > a img{
+    /*margin-top: 10px;*/
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+  }
+
 }
