@@ -55,9 +55,6 @@ main {
   }
 }
 
-/*.staff article {
-
-}*/
 .staff article {
   border: 1px solid orange;
   margin: 5px 5px;
@@ -67,11 +64,6 @@ main {
   vertical-align: top;
 }
 
-/*.staff article  {
-
-}*/
-
-
 .staff article img, button, p {
   /*display: inline-block;*/
   vertical-align: top;
@@ -79,6 +71,7 @@ main {
 .staff article img {
   width: 40%;
   height: 90%;
+  margin-left: 20px;
 }
 
 @media all and  (max-width: 1800px) {
@@ -105,6 +98,7 @@ main {
     min-height: 215px;
   }
 }
+
 /*@media all and  (max-width: 769px) {
   .staff {
     max-width: 300px;
@@ -162,7 +156,6 @@ main {
   margin: 5px 5px 5px 5px;
 }
 
-
 .staff article button a {
   text-decoration: none;
   color: #fff;
@@ -175,7 +168,6 @@ main {
     font-size: 1.0em;
   }
 }
-
 
 .side-bar {
     width: 20%;
@@ -255,7 +247,7 @@ aside ul li a:hover{
   .staff article {
     width: 90%;
   }
-  .professional > a img{
+  .professional > a img {
     /*margin-top: 10px;*/
     width: 25%;
     margin: 0 auto;
