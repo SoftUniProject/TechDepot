@@ -126,6 +126,7 @@ form div#hobbies select:active{
 
 }
 @media all and (max-width: 880px){
+
     #buttons{
         display: flex;
         flex-direction: column;
@@ -134,8 +135,74 @@ form div#hobbies select:active{
     #buttons p:nth-of-type(2){
         order: 1;
     }
-}
+    main form article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main a img{
+        width: 180px;
+    }
 
+    main form div#formRow div input {
+        margin: 0 auto;
+       width: 120px;
+    }
+   main fieldset{
+       min-width: 300px;
+   }
+}
+@media all and (max-width: 610px){
+    main form div#formRow div input{
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    main fieldset legend#personal{
+        font-size: 25px;
+
+    }
+    main fieldset{
+        min-width: 250px;
+        padding: 0;
+    }
+    fieldset legend{
+        width: 250px;
+    }
+    #buttons,select,#gender,#gender{
+
+    }
+    main form article{
+        margin: 0 auto;
+    }
+    main #buttons p input[type=submit]{
+        width: 200px;
+        margin: 0 auto;
+    }
+    main #buttons p input[type=reset]{
+        width: 200px;
+        margin: 0 auto;
+    }
+    main #buttons p input[type=file]{
+        width: 115px;
+        margin: 0 auto;
+    }
+    form div#hobbies select{
+        width: 200px;
+
+    }
+    main form #formRow div{
+      margin: 0 auto;
+
+    }
+    main form #formRow div{
+        text-align: center;
+    }
+    main a img{
+        width: 120px;
+    }
+}
 
 
 
