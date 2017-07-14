@@ -99,8 +99,25 @@ nav > a img{
       top:0;
       left:40px;
       width: 250px;
-
 }
+
+@media all and (min-width: 1700px) {
+    nav > a img {
+      left:300px;
+    }
+}
+
+@media all and (min-width: 2200px) {
+    nav > a img {
+      left:360px;
+    }
+}
+@media all and (min-width: 2560px) {
+    nav > a img {
+      left:560px;
+    }
+}
+
 nav > a img:hover{
    box-shadow: 0 0 30px -5px darkred;
 }
