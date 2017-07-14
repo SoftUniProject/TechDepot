@@ -82,16 +82,16 @@ main {
     min-height: 230px;
   }
 }
-@media all and  (max-width: 1440px) {
+@media all and  (max-width: 1439px) {
   .staff {
     max-width: 1050px;
   }
   .staff article {
     width: 24%;
-    min-height: 210px;
+    min-height: 218px;
   }
 }
-@media all and  (max-width: 1024px) {
+@media all and  (max-width: 1023px) {
   .staff {
     max-width: 800px;
   }
